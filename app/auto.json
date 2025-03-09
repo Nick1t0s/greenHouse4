@@ -1,0 +1,8 @@
+{
+  "min_temp": 20,
+  "max_temp": 35,
+  "min_light": 200,
+  "min_sh1": 100,
+  "min_sh2": 150,
+  "min_sh3": 200
+}

@@ -1,0 +1,8 @@
+GND        GP7
+US         US
+GP5        GND
+GP6        GP12 - PWM
+GP13 - PWM GND
+GP19       GP16
+GP26       GP20
+GND        GP21

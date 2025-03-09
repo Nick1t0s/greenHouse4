@@ -1,0 +1,12 @@
+{
+  "get": {
+    "ledSetting": "devices/greenhouse/cmds/ledsetting",
+    "autoSettings": "devices/greenhouse/cmds/autoSettings",
+    "DevicesPWM": "devices/greenhouse/cmds/devicespwm",
+    "DevicesOnOff": "devices/greenhouse/cmds/devicesonoff",
+    "isauto": "devices/greenhouse/cmds/auto"
+  },
+  "send": {
+    "sendData": "devices/greenhouse"
+  }
+}

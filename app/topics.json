@@ -4,7 +4,8 @@
     "autoSettings": "devices/greenhouse/cmds/autoSettings",
     "DevicesPWM": "devices/greenhouse/cmds/devicespwm",
     "DevicesOnOff": "devices/greenhouse/cmds/devicesonoff",
-    "isauto": "devices/greenhouse/cmds/auto"
+    "isauto": "devices/greenhouse/cmds/auto",
+    "pump": "devices/greenhouse/cmds/pump"
   },
   "send": {
     "sendData": "devices/greenhouse"

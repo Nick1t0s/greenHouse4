@@ -1,11 +1,8 @@
 {
-  "dhtInP": 5,
-  "dhtOutP": 6,
-  "pump1P": 7,
-  "pump2P": 8,
-  "pump3P": 9,
-  "lightP": 10,
-  "wentP": 11,
-  "hotP": 12,
+  "pump1P": 21,
+  "pump2P": 22,
+  "pump3P": 27,
+  "lightP": 25,
+  "wentP": 20,
   "DSaddr": "28-3c94e3819eda"
 }

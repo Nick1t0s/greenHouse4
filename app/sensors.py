@@ -40,7 +40,7 @@ class ADS:
 class DHT:
     def __init__(self, pin):
         self.pin = pin
-        self.dht = adafruit_dht.DHT22(board.D4)
+        self.dht = adafruit_dht.DHT22(self.pin)
 
     def read(self):
         try:
@@ -55,9 +55,7 @@ class DS:
     def read(self):
         try:
             with open(f"/sys/bus/w1/devices/{self.address}/temperature") as file:
-                return {"temp": int(file.read().rstrip()), "error": False}
+                return {"temp": int(file.read().rstrip())/1000, "error": False}
         except:
             return {"temp": -17, "error": True}
 
-d = DS("28-3c94e3819eda")
-print(d.read())
